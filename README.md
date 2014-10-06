@@ -177,7 +177,7 @@ If you want your website to be adaptable, than just rewrite rules declared for a
 
 These files will handle layout exceptions and are called by **mediaqueries**. 
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/warning.png" height="20" width="20">    **Please note:** those files are shared across **all views** (html pages). That's why you need to create a new folder under ```scss\layouts``` to give specific style to a specific page.
+<img src="https://assets-cdn.github.com/images/icons/emoji/warning.png" height="20" width="20">&nbsp; &nbsp; **Please note:** those files are shared across **all views** (html pages). That's why you need to create a new folder under ```scss\layouts``` to give specific style to a specific page.
 
  *EXAMPLE - you want to style a responsive home page and a responsive user-login page* 
 
