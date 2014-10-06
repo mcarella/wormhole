@@ -216,3 +216,7 @@ project
 		\libs
 		\plugins
 ```
+
+# <img src="https://assets-cdn.github.com/images/icons/emoji/rage1.png" height="20" width="20"> SEE IT IN ACTION #
+
+Just install it by command line and explore ```__example``` folder.
