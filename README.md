@@ -1,7 +1,7 @@
 # <img src="https://assets-cdn.github.com/images/icons/emoji/new_moon.png" height="20" width="20"> WORMHOLE #
 A yeoman generator for scaffolding multipages webapps and websites.
 
-# <img src="https://assets-cdn.github.com/images/icons/emoji/hear_no_evil.png" height="20" width="20"> Simple usage #
+# <img src="https://assets-cdn.github.com/images/icons/emoji/hear_no_evil.png" height="20" width="20"> SIMPLE USAGE #
 `npm install -g generator-wormhole`
 
 `yo wormhole`
@@ -73,11 +73,7 @@ project
 
 Put here all images files: ```.png``` , ```.jpg``` ,  ```.jpeg``` , wallpapers etc.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/arrow_right.png" height="20" width="20"> *Example*
-
-* ```icon.png```
-* ```home-background.jpeg```
-* ```userAvatar.jpg```
+<img src="https://assets-cdn.github.com/images/icons/emoji/arrow_right.png" height="20" width="20"> Example:  ```icon.png```, ```home-background.jpeg```, ```userAvatar.jpg```
 
 # <img src="https://assets-cdn.github.com/images/icons/emoji/file_folder.png" height="20" width="20"> js #
 
