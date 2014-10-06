@@ -72,7 +72,7 @@ project
 
 Put here all images files: ```.png``` , ```.jpg``` ,  ```.jpeg``` , wallpapers etc.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; &nbsp; *EXAMPLE*
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20"> &nbsp; *EXAMPLE*
 
 * ```icon.png```
 * ```home-background.jpeg```
@@ -86,7 +86,7 @@ This folder contains all ```.js``` files, organized in subfolders as following:
 
 Put here all ```angular controllers```, each one with the same name of the corresponding view. For example if your ```home.html``` needs an angular controller, create a file like this: ```project\js\controllers\home.js```.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20"> *EXAMPLE* 
 
 * ```home.js```
 * ```user-registration.js```
@@ -96,7 +96,7 @@ Put here all ```angular controllers```, each one with the same name of the corre
 
 Put here all javascript libraries. 
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20"> *EXAMPLE* 
 
 * ```jquery-latest.js```
 * ```angular.js```
@@ -106,7 +106,7 @@ Put here all javascript libraries.
 
 Put here all javascript and jquery plugins.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20"> *EXAMPLE* 
 
 * ```jquery.fancyInput.js```
 * ```jquery.tooltips.js```
@@ -118,7 +118,7 @@ Put here all javascript and jquery plugins.
 
 Put here all **presentational stuff**. Each file must have the same name of the corresponding view. For example if your ```home.html``` needs some effects, stuff, and plugins initializazion create a file like this: ```project\js\views\home.js```, that has is own ```document ready```.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20"> *EXAMPLE* 
 
 * ```home-animations.js```
 * ```user-registration.js```
@@ -136,7 +136,7 @@ Contains all **generated** ```css``` files from main ```scss``` files. For examp
 
 Put here all css libraries.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20"> *EXAMPLE* 
 
 * ```_normalize.scss```
 * ```_reset.scss```
@@ -146,7 +146,7 @@ Put here all css libraries.
 
 Put here all css necessary to make javascript libraries work.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20"> *EXAMPLE* 
 
 * ```_jquery.fancyInput.scss```
 * ```_jquery.tooltips.scss````
@@ -177,7 +177,7 @@ If you want your website to be adaptable, than just rewrite rules declared for a
 
 These files will handle layout exceptions and are called by **mediaqueries**. 
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/warning.png" height="20" width="20">&nbsp; &nbsp; **Please note:** those files are shared across **all views** (html pages). That's why you need to create a new folder under ```scss\layouts``` to give specific style to a specific page.
+<img src="https://assets-cdn.github.com/images/icons/emoji/warning.png" height="20" width="20"> &nbsp; **Please note:** those files are shared across **all views** (html pages). That's why you need to create a new folder under ```scss\layouts``` to give specific style to a specific page.
 
  *EXAMPLE - you want to style a responsive home page and a responsive user-login page* 
 
