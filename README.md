@@ -86,7 +86,7 @@ This folder contains all ```.js``` files, organized in subfolders as following:
 
 Put here all ```angular controllers```, each one with the same name of the corresponding view. For example if your ```home.html``` needs an angular controller, create a file like this: ```project\js\controllers\home.js```.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; &nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
 
 * ```home.js```
 * ```user-registration.js```
@@ -96,7 +96,7 @@ Put here all ```angular controllers```, each one with the same name of the corre
 
 Put here all javascript libraries. 
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; &nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
 
 * ```jquery-latest.js```
 * ```angular.js```
@@ -106,7 +106,7 @@ Put here all javascript libraries.
 
 Put here all javascript and jquery plugins.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; &nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
 
 * ```jquery.fancyInput.js```
 * ```jquery.tooltips.js```
@@ -118,7 +118,7 @@ Put here all javascript and jquery plugins.
 
 Put here all **presentational stuff**. Each file must have the same name of the corresponding view. For example if your ```home.html``` needs some effects, stuff, and plugins initializazion create a file like this: ```project\js\views\home.js```, that has is own ```document ready```.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; &nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
 
 * ```home-animations.js```
 * ```user-registration.js```
@@ -136,7 +136,7 @@ Contains all **generated** ```css``` files from main ```scss``` files. For examp
 
 Put here all css libraries.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; &nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
 
 * ```_normalize.scss```
 * ```_reset.scss```
@@ -146,7 +146,7 @@ Put here all css libraries.
 
 Put here all css necessary to make javascript libraries work.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; &nbsp; *EXAMPLE* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/exclamation.png" height="20" width="20">&nbsp; *EXAMPLE* 
 
 * ```_jquery.fancyInput.scss```
 * ```_jquery.tooltips.scss````
