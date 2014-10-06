@@ -1,0 +1,63 @@
+
+a {
+	text-decoration: none;
+}
+
+
+header,
+footer {
+
+	height: 80px;
+	line-height: 80px;
+	background-color: $color-borf-gold;
+}
+
+
+header {
+
+	.logo {
+		float: left;
+		margin-left: $spacing-default;
+		font-family: $font-primary;
+		font-size: $size-font-logo-mobile;
+		font-weight: bold;
+	}
+
+	.author {
+
+		float: right;
+		margin-right: $spacing-default;
+		font-family: $font-primary;
+		font-size: $size-font-logo-mobile;
+		font-weight: bold;
+	}
+}
+
+.main-container {
+	@include tw-clearfix;
+
+	.text {
+		width: 100%;
+		padding-top: 40px;
+		text-align: center;
+		color: $color-white;
+		font-family: $font-primary;
+		font-size: $size-font-logo-desktop;
+		font-weight: bold;
+	}
+}
+
+footer {
+
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+	.copyright,
+	.social {
+		font-family: $font-primary;
+		font-size: $size-font-footer-mobile;
+		font-weight: bold;
+		margin-left: $spacing-default;
+	}
+}

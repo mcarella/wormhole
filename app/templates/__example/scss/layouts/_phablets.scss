@@ -1,0 +1,24 @@
+
+
+
+
+header {
+
+	.logo {
+		font-size: $size-font-logo-phablets;
+		font-weight: bold;
+	}
+
+	.author {
+		font-size: $size-font-logo-phablets;
+	}
+}
+
+
+footer {
+
+	.copyright,
+	.social {
+		font-size: $size-font-footer-phablets;
+	}
+}

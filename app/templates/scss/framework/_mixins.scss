@@ -1,0 +1,173 @@
+
+/* ========================================================================
+	MIXINS
+========================================================================== */
+
+
+/* Typography mixins */
+
+@mixin typography-smoother-font {
+	font-size: 100%;
+	line-height: 1.5;
+ 	-webkit-font-smoothing: antialiased;
+}
+
+@mixin typography-is-title {
+	font-family: $font-secondary;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+/* Clearfix */
+
+@mixin tw-clearfix {
+
+	&:before,
+	&:after {
+		content: ' ';
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+/* Basic button rules */
+
+@mixin tw-button-rules {
+
+	@include border-radius(3px);
+	font-family: $font-button;
+	min-width: 125px;
+	max-width: 125px;
+	min-height: 32px;
+	max-height: 32px;
+	line-height: 32px;
+	text-align: center;
+	
+
+	&:hover {
+		cursor: pointer;
+		@include transition(background 0.5s);
+	}
+}
+
+/* usage: 
+	.button-regular { 
+		@include tw-button;
+	}
+*/
+
+@mixin tw-button() {
+
+	@include tw-button-rules;
+	background-color: $color-black;
+	color: $color-white;
+
+	&:hover {
+		background-color: $color-white;
+		color: $color-black;
+	}
+}
+
+/* Customizable button 
+	usage: 
+
+	.button-ko {
+		@include tw-button-custom('ko');
+	}
+
+	.button-ok {
+		@include tw-button-custom('ok');
+	}
+*/
+
+@mixin tw-button-custom($arg) {
+
+	@include tw-button-rules;
+
+	@if ($arg=='ko') {
+		background-color: $color-ko;
+	}
+
+	@elseif ($arg=='ok') {
+		background-color: $color-ok;
+	}
+}
+
+
+/* Css gradient generator */
+
+@mixin tw-css-gradient($from: #dfdfdf, $to: #f8f8f8) {
+	background-color: $to;
+	background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+	background-image: -webkit-linear-gradient(top, $from, $to);
+	background-image: -moz-linear-gradient(top, $from, $to);
+	background-image: -o-linear-gradient(top, $from, $to);
+	background-image: linear-gradient(to bottom, $from, $to);
+}
+
+
+/* Smooth transition hack */
+
+@mixin tw-smooth-transition {
+	-webkit-transform: translateZ(0);
+	-moz-transform: translateZ(0);
+	-ms-transform: translateZ(0);
+	transform: translateZ(0);
+}
+
+
+/* Momentum scrolling for devices */
+
+@mixin tw-native-scroll {
+	-webkit-overflow-scrolling: touch;
+	-moz-overflow-scrolling: touch;
+	-ms-overflow-scrolling: touch;
+	overflow-scrolling: touch;
+	overflow-y: scroll;
+}
+
+
+/* Keyframes animation */
+
+@mixin tw-keyframes($animation-name) {
+	@-webkit-keyframes $animation-name { @content; }
+  	@-moz-keyframes $animation-name { @content; }  
+  	@-ms-keyframes $animation-name { @content; }
+  	@-o-keyframes $animation-name { @content; }
+  	@keyframes $animation-name { @content; }
+}
+
+/* Animation */
+
+@mixin tw-animation($str) {
+ 	-webkit-animation: #{$str};
+ 	-moz-animation: #{$str};
+ 	-ms-animation: #{$str};
+ 	-o-animation: #{$str};
+	animation: #{$str};      
+}
+
+
+/* Animate scss */
+
+@mixin tw-animate($duration,$delay,$iterationCount) {
+
+	-webkit-animation-duration: $duration;
+	-webkit-animation-delay: $delay;
+	-webkit-animation-iteration-count: $iterationCount;
+
+	-moz-animation-duration: $duration;
+	-moz-animation-delay: $delay;
+	-moz-animation-iteration-count: $iterationCount;
+
+	-o-animation-duration: $duration;
+	-o-animation-delay: $delay;
+	-o-animation-iteration-count: $iterationCount;
+
+	animation-duration: $duration;
+	animation-delay: $delay;
+	animation-iteration-count: $iterationCount;
+}

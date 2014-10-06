@@ -1,0 +1,20 @@
+{
+  "name": "generator-wormhole",
+  "version": "0.0.0",
+  "description": "A responsive boilerplate for multi-pages webapps",
+  "license": "MIT",
+  "repository": "mcarella/generator-wormhole",
+  "author": {
+    "name": "Matt Carella",
+    "email": "matt.carella@gmail.com",
+    "url": "https://github.com/mcarella"
+  }
+  ,
+  "dependencies": {
+    "grunt-contrib-concat": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-cssmin": "latest",
+    "grunt-contrib-compass": "latest",
+    "grunt-contrib-watch": "latest"
+  }
+}

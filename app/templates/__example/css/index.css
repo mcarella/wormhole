@@ -1,0 +1,269 @@
+/* ========================================================================
+	VARIABLES
+========================================================================== */
+/* Colors */
+/* Spacings */
+/* Fonts */
+/* Sizes */
+/* ========================================================================
+	MIXINS
+========================================================================== */
+/* Typography mixins */
+/* Clearfix */
+/* Basic button rules */
+/* usage: 
+	.button-regular { 
+		@include tw-button;
+	}
+*/
+/* Customizable button 
+	usage: 
+
+	.button-ko {
+		@include tw-button-custom('ko');
+	}
+
+	.button-ok {
+		@include tw-button-custom('ok');
+	}
+*/
+/* Css gradient generator */
+/* Smooth transition hack */
+/* Momentum scrolling for devices */
+/* Keyframes animation */
+/* Animation */
+/* Animate scss */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* line 18, ../scss/libs/_reset.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 28, ../scss/libs/_reset.scss */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* line 31, ../scss/libs/_reset.scss */
+body {
+  line-height: 1;
+}
+
+/* line 34, ../scss/libs/_reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 37, ../scss/libs/_reset.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 41, ../scss/libs/_reset.scss */
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 45, ../scss/libs/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 2, ../scss/layouts/_all.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 8, ../scss/layouts/_all.scss */
+header,
+footer {
+  height: 80px;
+  line-height: 80px;
+  background-color: #f97f24;
+}
+
+/* line 18, ../scss/layouts/_all.scss */
+header .logo {
+  float: left;
+  margin-left: 30px;
+  font-family: "Helvetica";
+  font-size: 12px;
+  font-weight: bold;
+}
+/* line 26, ../scss/layouts/_all.scss */
+header .author {
+  float: right;
+  margin-right: 30px;
+  font-family: "Helvetica";
+  font-size: 12px;
+  font-weight: bold;
+}
+
+/* line 27, ../scss/framework/_mixins.scss */
+.main-container:before, .main-container:after {
+  content: ' ';
+  display: table;
+}
+/* line 31, ../scss/framework/_mixins.scss */
+.main-container:after {
+  clear: both;
+}
+/* line 39, ../scss/layouts/_all.scss */
+.main-container .text {
+  width: 100%;
+  padding-top: 40px;
+  text-align: center;
+  color: white;
+  font-family: "Helvetica";
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* line 50, ../scss/layouts/_all.scss */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+/* line 57, ../scss/layouts/_all.scss */
+footer .copyright,
+footer .social {
+  font-family: "Helvetica";
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+/* line 1, ../scss/layouts/index/_all.scss */
+body {
+  background-color: #52c4e9;
+}
+
+@media only screen and (min-width: 481px) {
+  /* line 7, ../scss/layouts/_phablets.scss */
+  header .logo {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  /* line 12, ../scss/layouts/_phablets.scss */
+  header .author {
+    font-size: 14px;
+  }
+
+  /* line 21, ../scss/layouts/_phablets.scss */
+  footer .copyright,
+  footer .social {
+    font-size: 14px;
+  }
+
+  /* line 1, ../scss/layouts/index/_phablets.scss */
+  body {
+    background-color: #a29fcf;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* line 5, ../scss/layouts/_tablets.scss */
+  header .logo {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  /* line 10, ../scss/layouts/_tablets.scss */
+  header .author {
+    font-size: 16px;
+  }
+
+  /* line 16, ../scss/layouts/_tablets.scss */
+  .text {
+    font-size: 40px;
+  }
+
+  /* line 25, ../scss/layouts/_tablets.scss */
+  footer .copyright,
+  footer .social {
+    font-size: 16px;
+  }
+
+  /* line 2, ../scss/layouts/index/_tablets.scss */
+  body {
+    background-color: #a8267f;
+  }
+}
+@media only screen and (min-width: 1030px) {
+  /* line 5, ../scss/layouts/_desktop.scss */
+  header .logo {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  /* line 10, ../scss/layouts/_desktop.scss */
+  header .author {
+    font-size: 40px;
+  }
+
+  /* line 15, ../scss/layouts/_desktop.scss */
+  .text {
+    font-size: 40px;
+  }
+
+  /* line 23, ../scss/layouts/_desktop.scss */
+  footer .copyright,
+  footer .social {
+    font-size: 40px;
+  }
+
+  /* line 2, ../scss/layouts/index/_desktop.scss */
+  body {
+    background-color: #a8267f;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  /* line 4, ../scss/layouts/_desktop-large.scss */
+  header .logo {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  /* line 9, ../scss/layouts/_desktop-large.scss */
+  header .author {
+    font-size: 40px;
+  }
+
+  /* line 14, ../scss/layouts/_desktop-large.scss */
+  .text {
+    font-size: 40px;
+  }
+
+  /* line 22, ../scss/layouts/_desktop-large.scss */
+  footer .copyright,
+  footer .social {
+    font-size: 40px;
+  }
+
+  /* line 2, ../scss/layouts/index/_desktop-large.scss */
+  body {
+    background-color: #0a0267;
+  }
+}

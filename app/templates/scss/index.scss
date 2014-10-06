@@ -1,0 +1,58 @@
+// Compass, of course
+
+@import "compass/css3";
+
+// User variables, mixins, style
+
+@import "framework/variables";
+@import "framework/mixins";
+@import "framework/forms";
+@import "framework/inputs";
+
+// Libraries and plugin's css
+
+@import "libs/reset"; 
+// @import "plugins/animate";
+
+// Common styles for all breakpoints (mobile first)
+
+@import "layouts/all";
+@import "layouts/index/all";
+
+// Phablets
+
+@media only screen and (min-width: 481px) {
+	@import "layouts/phablets";
+	@import "layouts/index/phablets";
+} 
+
+// Tablets and small laptops 
+
+@media only screen and (min-width: 768px) {
+	@import "layouts/tablets";
+	@import "layouts/index/tablets";
+} 
+
+// Desktop
+
+@media only screen and (min-width: 1030px) {
+	@import "layouts/desktop";
+	@import "layouts/index/desktop";
+}
+
+// Desktop with large screens
+
+@media only screen and (min-width: 1240px) {
+	@import "layouts/desktop-large";
+	@import "layouts/index/desktop-large";
+}
+
+// Retina
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (min--moz-device-pixel-ratio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5) {
+    @import "layouts/retina";
+    @import "layouts/index/retina";
+}
+

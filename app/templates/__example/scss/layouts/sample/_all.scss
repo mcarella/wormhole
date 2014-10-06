@@ -1,0 +1,14 @@
+
+body {
+	background-color: #52c4e9;
+}
+
+.logo,
+.author,
+a.text {
+	@include tw-animate(1s,0s,1);
+}
+
+.copyright {
+	@include tw-animate(1s,1.5s,1);
+}
