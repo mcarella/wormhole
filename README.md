@@ -72,10 +72,23 @@ project
 
 Put here all images files: ```.png``` , ```.jpg``` ,  ```.jpeg``` , wallpapers etc.
 
-EXAMPLE:  ```icon.png```, ```home-background.jpeg```, ```userAvatar.jpg```
+*EXAMPLE*
+
+* ```icon.png```
+* ```home-background.jpeg```
+* ```userAvatar.jpg```
 
 # <img src="https://assets-cdn.github.com/images/icons/emoji/file_folder.png" height="20" width="20"> js #
 
 This folder contains all ```.js``` files, organized in subfolders as following:
-### ° \ controllers ###
+### \ controllers ###
+
+
+Put here all ```angular controllers```, each one with the same name of the corresponding view. For example if your ```home.html``` needs an angular controller, create a file like this: ```project\js\controllers\home.js```.
+
+*EXAMPLE* 
+
+* ```home.js```
+* ```user-registration.js```
+* ```user-login.js```
 
