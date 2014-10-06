@@ -8,7 +8,6 @@ A yeoman generator for scaffolding multipages webapps and websites.
 
 # <img src="https://assets-cdn.github.com/images/icons/emoji/evergreen_tree.png" height="20" width="20"> FOLDERS TREE #
 
-
 ```
 project
     \css
@@ -78,9 +77,7 @@ Put here all images files: ```.png``` , ```.jpg``` ,  ```.jpeg``` , wallpapers e
 # <img src="https://assets-cdn.github.com/images/icons/emoji/file_folder.png" height="20" width="20"> js #
 
 This folder contains all ```.js``` files, organized in subfolders as following:
-
 * ### \ controllers ###
-
 
 Put here all ```angular controllers```, each one with the same name of the corresponding view. For example if your ```home.html``` needs an angular controller, create a file like this: ```project\js\controllers\home.js```.
 
