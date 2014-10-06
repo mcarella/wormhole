@@ -1,10 +1,17 @@
 # <img src="https://assets-cdn.github.com/images/icons/emoji/new_moon.png" height="20" width="20"> WORMHOLE #
 A yeoman generator for scaffolding responsive multipages webapps and websites.
 
-# <img src="https://assets-cdn.github.com/images/icons/emoji/hear_no_evil.png" height="20" width="20"> SIMPLE USAGE #
-`npm install -g generator-wormhole`
+# <img src="https://assets-cdn.github.com/images/icons/emoji/hear_no_evil.png" height="20" width="20"> Simple #
+Yeoman generator available on NPM
 
+`npm install -g generator-wormhole`
 `yo wormhole`
+
+# <img src="https://assets-cdn.github.com/images/icons/emoji/pig_nose.png" height="20" width="20"> Grunt #
+Wormhole comes with grunt to minify, concat, then uglify your scripts.
+
+# <img src="https://assets-cdn.github.com/images/icons/emoji/clock10.png" height="20" width="20"> Compass #
+Wormhole comes with compass to help you styling things faster.
 
 # <img src="https://assets-cdn.github.com/images/icons/emoji/evergreen_tree.png" height="20" width="20"> FOLDERS TREE #
 
