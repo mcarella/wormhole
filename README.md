@@ -10,6 +10,8 @@ Yeoman generator available on NPM
 
 `yo wormhole`
 
+https://www.npmjs.org/package/generator-wormhole
+
 # <img src="https://assets-cdn.github.com/images/icons/emoji/pig_nose.png" height="20" width="20"> Grunt #
 Wormhole comes with grunt to minify, concat, then uglify your scripts.
 
