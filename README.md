@@ -1,3 +1,13 @@
+# <img src="https://assets-cdn.github.com/images/icons/emoji/new_moon.png" height="20" width="20"> WORMHOLE #
+A yeoman generator for scaffolding multipages webapps and websites.
+
+# <img src="https://assets-cdn.github.com/images/icons/emoji/hear_no_evil.png" height="20" width="20"> Simple usage #
+`npm install -g generator-wormhole`
+
+`yo wormhole`
+
+## WORMHOLE
+
 # <img src="https://assets-cdn.github.com/images/icons/emoji/evergreen_tree.png" height="20" width="20"> FOLDERS TREE #
 
 
