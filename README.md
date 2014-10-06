@@ -162,7 +162,7 @@ In this directory, will be ```scss``` files **shared across all project pages**.
 Files in this directory are organized in that way to cover all screens resolutions, following a **mobile first principle**. So, you should start declaring your own styles using ```_all.scss``` file. Rules declared in this file are valid **for all screen sizes and all views**. 
 If you want your website to be adaptable, than just rewrite rules declared for any other screen resolution.
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/eyes.png" height="20" width="20">  *The folder is organized as following* 
+<img src="https://assets-cdn.github.com/images/icons/emoji/eyes.png" height="20" width="20"> *The folder is organized as following* 
 
 * phablets (**481up**) ```_phablets.scss```
 * tablets and small laptops (**768up**) ```_tablets.scss```
