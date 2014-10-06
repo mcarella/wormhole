@@ -73,3 +73,9 @@ project
 Put here all images files: ```.png``` , ```.jpg``` ,  ```.jpeg``` , wallpapers etc.
 
 EXAMPLE:  ```icon.png```, ```home-background.jpeg```, ```userAvatar.jpg```
+
+# <img src="https://assets-cdn.github.com/images/icons/emoji/file_folder.png" height="20" width="20"> js #
+
+This folder contains all ```.js``` files, organized in subfolders as following:
+* ### \ controllers ###
+
