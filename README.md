@@ -10,7 +10,8 @@ Yeoman generator available on NPM
 
 `yo wormhole`
 
-<img src="https://assets-cdn.github.com/images/icons/emoji/information_source.png" height="20" width="20"> &nbsp;
+# <img src="https://assets-cdn.github.com/images/icons/emoji/information_source.png" height="20" width="20"> Npm link #
+
 https://www.npmjs.org/package/generator-wormhole
 
 # <img src="https://assets-cdn.github.com/images/icons/emoji/pig_nose.png" height="20" width="20"> Grunt #
