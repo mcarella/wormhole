@@ -6,8 +6,6 @@ A yeoman generator for scaffolding multipages webapps and websites.
 
 `yo wormhole`
 
-## WORMHOLE
-
 # <img src="https://assets-cdn.github.com/images/icons/emoji/evergreen_tree.png" height="20" width="20"> FOLDERS TREE #
 
 
