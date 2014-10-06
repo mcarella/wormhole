@@ -1,6 +1,8 @@
 # <img src="https://assets-cdn.github.com/images/icons/emoji/new_moon.png" height="20" width="20"> WORMHOLE #
 A yeoman generator for scaffolding responsive multipages webapps and websites.
 
+![](http://hinnytran.files.wordpress.com/2014/01/donnie-darko-frank-the-6-foot-bunnie-rabbit-blogged-by-hinny-tran.jpg)
+
 # <img src="https://assets-cdn.github.com/images/icons/emoji/hear_no_evil.png" height="20" width="20"> Simple usage #
 Yeoman generator available on NPM
 
